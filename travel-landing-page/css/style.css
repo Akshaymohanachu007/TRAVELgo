@@ -644,3 +644,33 @@ textarea {
         grid-column: span 2;
     }
 }
+
+/* Footer.............................................................................. */
+
+
+.simple-footer {
+    background: #007A87;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 768px) {
+    .simple-footer {
+        padding: 15px 8px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .simple-footer {
+        padding: 18px 12px;
+        font-size: 1rem;
+    }
+}
+
